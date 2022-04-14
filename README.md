@@ -3,7 +3,7 @@
 The EC2U Project Book provides a single point of access to shared guidelines and reusable process patterns, supporting
 consistent software development practices within the [EC2U Alliance](https://www.ec2u.eu/).
 
-## Guidelines
+# Guidelines
 
 * [Manage Source Code](docs/how-to/manage-source-code.md)
 
