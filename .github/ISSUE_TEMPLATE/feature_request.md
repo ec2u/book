@@ -1,7 +1,7 @@
 ---
 name: "Feature Request"
 about: "Suggest an idea for this project"
-title: "What's missing from @ec2u/core?"
+title: "What's missing from ec2u/book?"
 labels: "Story"
 assignees: ""
 ---

@@ -1,7 +1,7 @@
 ---
 name: "Bug Report"
 about: "Create a report to help us improve"
-title: "What's wrong with @ec2u/core?"
+title: "What's wrong with ec2u/book?"
 labels: "Issue"
 assignees: ""
 ---
@@ -9,7 +9,7 @@ assignees: ""
 
 **environment**
 
-- @ec2u/core: *version*
+- ec2u/book: *version*
 - operating system: *name/version*
 - browser: *vendor/version*
 
