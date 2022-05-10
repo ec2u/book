@@ -24,6 +24,8 @@ service is hosted on a dedicated GitHub project, managed according to the follow
 
 ## Release Branches
 
+### Versioned Releases
+
 ```
 release/<major>.<minor>
 ```
@@ -33,6 +35,16 @@ release/<major>.<minor>
 - CD pipelines are triggered by `<major>.<minor>.<patch>` version tags
 
 > :exclamation: Note no leading `v` in version tags
+
+### Continuous Releases
+
+```
+release/<environment>
+```
+
+* a dedicated release branch for each deployment environment
+  * ususally `dev`/`pre`/`pro`
+* CI/CD pipelines are triggered by pushes / pull requests on release branches
 
 ## Work Branches
 
@@ -63,12 +75,12 @@ to [Spring Contributing Guidelines](https://github.com/spring-projects/spring-fr
 , with the highlighted deviations
 
 1. Use imperative statements in the subject line, e.g. `Fix broken Javadoc link`
-2. Begin the subject line sentence with a capitalized verb, e.g. `Add, Prune, Fix, Introduce, Avoid,  …`
+2. Begin the subject line sentence with a capitalized verb, e.g. `Add, Prune, Fix, Introduce, Avoid, …`
 3. Do not end the subject line with a period
 4. Keep the subject line to 50 characters or less if possible
 5. Wrap lines in the body at 72 characters or less
 6. ~~Mention associated issue(s) at the end of the commit comment, prefixed with "#<issue> " as above~~  
-   Mention associated GitHub issue(s) in the subject line, e.g. `Fix #<issue number>: now …`,
+   Mention associated GitHub issue(s) in the subject line, e.g. `Fix #<issue number>: now …`,
    using [GitHub issue linking keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)
 7. In the body of the commit message, explain how things worked before this commit, what has changed, and how things work
    now
